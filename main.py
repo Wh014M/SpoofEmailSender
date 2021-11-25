@@ -27,3 +27,8 @@ data = {
 	'r_email': 'padsalatrushal11@gmail.com',
 	'message':'this is test #8',
 }
+
+
+r = requests.post(url, headers=headers, data=data, allow_redirects=True)
+res = r.text
+print(r.text)
