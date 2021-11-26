@@ -15,32 +15,20 @@ Label(root, text='Spoof Email Sender' , font='comicsansms 33 bold',pady=15, padx
 
 
 #Text for our form
-sender_name = Label(root, text='Sender Name')
-sender_email = Label(root, text='Sender Email')
-subject = Label(root, text='Subject')
-reciever_email = Label(root, text='Reciever Email')
-message = Label(root, text='Message') 
+sender_name = Label(root, text='Sender Name').grid(row=1 , column=2)
+sender_email = Label(root, text='Sender Email').grid(row=2, column=2)
+subject = Label(root, text='Subject').grid(row=3, column=2)
+reciever_email = Label(root, text='Reciever Email').grid(row=4, column=2)
+message = Label(root, text='Message').grid(row=5, column=2)
 
-'''
 
-'''
-#Pack text for our form
-sender_name.grid(row=1 , column=2)
-sender_email.grid(row=2, column=2)
-subject.grid(row=3, column=2)
-reciever_email.grid(row=4, column=2)
-message.grid(row=5, column=2)
+#Tkinter variable for storing entries
+sender_name_value = StringVar()
+sender_email_value = StringVar()
+subject_value = StringVar()
+reciever_email_value = StringVar()
+message_value = StringVar()
 
-'''
-# Tkinter variable for storing entries
-namevalue = StringVar()
-phonevalue = StringVar()
-gendervalue = StringVar()
-emergencyvalue = StringVar()
-paymentmodevalue = StringVar()
-foodservicevalue = IntVar()
-
-'''
 
 
 
