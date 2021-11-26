@@ -29,6 +29,12 @@ subject_value = StringVar()
 reciever_email_value = StringVar()
 message_value = StringVar()
 
+#Entries for our form
+sender_name_entry = Entry(root, textvariable='sender_name_value').grid(row=1, column=3)
+sender_email_entry = Entry(root, textvariable='sender_email_value').grid(row=2, column=3)
+subject_entry = Entry(root, textvariable='subject_value').grid(row=3, column=3)
+reciever_email_entry = Entry(root, textvariable='reciever_email_value').grid(row=4, column=3)
+message_entry = Entry(root, textvariable='message_value').grid(row=5, column=3)
 
 
 
