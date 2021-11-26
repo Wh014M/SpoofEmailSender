@@ -3,10 +3,13 @@ from tkinter import *
 import requests
 root = Tk()
 
-root.geometry('722x400')
+root.geometry('500x400')
+root.minsize(450,300)
+# root.maxsize(700, 400)
+
 root.title('Spoof Email Sender by Padsala Tushal')
 
-Label(root, text='Spoof Email Sender' , font='comicsansms 33 bold',pady=15, padx=225).grid(row=0, column=2)
+Label(root, text='Spoof Email Sender' , font='comicsansms 33 bold').grid(row=0,column=2)
 
 #Text for our form
 sender_name = Label(root, text='Sender Name').grid(row=1,column=1)
