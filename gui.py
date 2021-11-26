@@ -14,21 +14,15 @@ Label(root, text='Spoof Email Sender' , font='comicsansms 33 bold',pady=15, padx
 
 
 '''
-sender_name = input("Enter Sender Name:")
-sender_email = input("Enter Sender Email:")
-subject = input("Enter Subject:")
-reciever_email = input("Enter Reciever Email:")
-message = input("Enter Message:")
-
-#Text for our form
-name = Label(root, text="Name")
-phone = Label(root, text="Phone")
-gender = Label(root, text="Gender")
-emergency = Label(root, text="Emergency Contact")
-paymentmode = Label(root, text="Payment Mode")
 
 '''
 
+#Text for our form
+sender_name = Label(root, text='Sender Name')
+sender_email = Label(root, text='Sender Email')
+subject = Label(root, text='Subject')
+reciever_email = Label(root, text='Reciever Email')
+message = Label(root, text='Message') 
 
 
 
